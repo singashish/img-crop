@@ -29,7 +29,7 @@ class Application():
 
 def main():
     root = tk.Tk()
-    root.title("crop")
+    root.title("ImgCrop")
     app = Application(parse_args.parse_arguments(), master=root)
 
     app.run()

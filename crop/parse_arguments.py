@@ -11,8 +11,8 @@ X                                 - save selection and stay on the same picture\
 C                                 - rotate current image by 90 degrees\n
 R                                 - rotate aspect ratio if defined\n
 Hold Left Shift or Left Ctrl      - drag selection\n
-Right Arrow or Right Mouse Button - go to next picture\n
-Left Arrow or Middle Mouse Button - go to previous picture\n"""
+D or Right Mouse Button - go to next picture\n
+A or Middle Mouse Button - go to previous picture\n"""
     )
     parser.add_argument(
         "input_dir",

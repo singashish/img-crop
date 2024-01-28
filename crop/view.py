@@ -265,7 +265,7 @@ class View():
         settings_window.destroy()
 
     def show_about_dialog(self):
-        messagebox.showinfo("About", "crop-img " +
+        messagebox.showinfo("About", "img-crop " +
                             crop.__version__, parent=self.master)
 
     def show_error(self, title: str, message: str):
